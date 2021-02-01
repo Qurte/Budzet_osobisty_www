@@ -1,0 +1,184 @@
+body 
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/tlo.png");
+	font-size: 20px;
+	margin: 0 !important;
+	font-family: 'Lato', sans-serif;
+}
+header 
+{
+	width: 100%;
+	padding: 40px 0;
+}
+nav
+{
+	width: 100%;
+	background: #36b03c;
+	text-align: center;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+}
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 16px;
+	height: 35px;
+	line-height: 35px;
+	display: inline-block; /* wyrówna menu do środka jeżeli block w którym jest ma text-align: center; czyli wyrównanie do środka tekstu*/
+}
+ol > li /*stylizujemy element listy który jest potomkiem listy ol*/ 
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+	background-color: #25a02b;
+}
+ol > li:hover
+{
+	background-color: #25a02b;
+}
+ol > li:hover > a
+{
+	color: #451717;
+}
+#Login
+{
+	background-image: url("img/tlo.png");
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); /*ze strony cssmatic.com/box-shadow */
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+#container
+{
+	width: 1000px; 
+	font-size: 25px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+#message
+{
+	color: #666;
+	font-size: 17px;
+	margin-top: 20px;
+}
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px; /* żeby pole nie było kwadratowe*/
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box; /* zakazuje ustawić szerokosc 300px niezależnie od szerokości contentu, po to aby text-boxy miały taką samą szerokość co przycisk logowania */
+	outline: none;
+	margin-top: 10px;
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9); /*ze strony cssmatic.com/box-shadow */
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+input[type=submit]
+{
+	width: 300px;
+	background-color:#36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	
+}
+input[type=button]
+{
+	width: 300px;
+	background-color:#36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 5px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	
+}
+input[type=submit]:hover
+{
+	background-color: #27a02b;
+}
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9); /*ze strony cssmatic.com/box-shadow */
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #428C42;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #428C42;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #428C42;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #428C42;
+}
