@@ -75,7 +75,44 @@ ol > li:hover > a
 	margin-left: auto;
 	margin-right: auto;
 	
+}
+#content
+{
+	float: left;
+	background-color: #efefef;
+	width: 780px; 
+	font-size: 25px;
+	text-align: justify;
+	height: 590px;
+	margin: 10px;
 	
+}
+#menu
+{
+	float: left;
+	width: 20%;
+	
+}
+.option
+{
+	width: 190px;
+	height: 190px;
+	margin:10px;
+}
+#addIncome
+{
+	text-align: center;
+	background-color: #efefef;
+}
+#addExpense
+{
+	text-align: center;
+	background-color: #efefef;
+}
+#balance
+{
+	text-align: center;
+	background-color: #efefef;
 }
 #message
 {
@@ -93,9 +130,13 @@ ol > li:hover > a
 }
 footer
 {
+	width: 1000px;
 	background-color: #efefef;
 	text-align: center;
 	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 input[type=text],
 input[type=password]
