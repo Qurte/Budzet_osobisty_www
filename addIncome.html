@@ -28,6 +28,7 @@
 		<nav>
 			<ol> 
 				<li id="mainPage"> <a href="#"> Strona główna </a> </li>
+				<li id="mainPage"> <a href="#"> Menu główne</a> </li>
 				<li id="contact"> <a href="#" > Kontakt </a></li>
 				<li id="aboutUs"> <a href="#"> O nas </a></li>
 				<li id="settings"> <a href="#"> Ustawienia </a></li>
@@ -40,11 +41,47 @@
 		<article>
 			<div id="container">
 				<div id="content">
-					<div class="option"> Dodaj wydatek </div>
+					<div class="headers"> Dodaj przychód </div>
 					
-
-				</div>
+					<div id="leftSide"> 
+						<div class="leftSidetext"> Podaj Kwote dochodu: </div>
+						<div class="leftSidetext"> Data przychodu: </div>
+						<div class="leftSidetext"> Kategoria: </div>
+					</div>
 				
+					<div id="rightSide">
+						
+						<div class="leftSidetext"> <label> <input type="number" name="income" step="0.01"> </lebel> </div>
+						<div class="leftSidetext"><label>  <input type="date" name="day"> </label> </div>
+						<div class="leftSidetext"><label for="category"> </lebel>
+						<select id="category">
+						
+							<option value="nothing">  </option>
+							<option value="salary"> wynagrodzenie </option>
+							<option value="bankInterest" selected> odetki bankowe </option>
+							<option value="allegro"> sprzedarz na allegro </option>
+							<option value="other"> inne </option>
+						
+						</select> </div>
+					</div>
+					<div style="clear:both"> </div>
+					<div id="divForComment">
+						<div><label for="comment">Komentarz: </label> </div>
+						<textarea name="comment" id="comment" rows="4" cols="54" maxlength="25" minlength="10"> </textarea>
+					</div>
+					
+					<div style="clear: both;"> </div>
+						
+					<div id="leftSide"> 
+						<input type="submit" value="[Dodaj]">
+					</div>
+					
+					<div id="rightSide">
+						<input type="button" value="[Anuluj]">
+					</div>
+					<div style="clear:both"> </div>
+					
+				</div>
 				<div id="menu">
 						
 						<a href="addIncome.html"><div class="option" id="addIncome"><i class="icon-plus"></i> <br/> Dodaj przychód </div></a>
