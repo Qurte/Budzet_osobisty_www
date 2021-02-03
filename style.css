@@ -55,7 +55,7 @@ ol > li:hover > a
 {
 	color: #451717;
 }
-#Login
+#Login 
 {
 	background-image: url("img/tlo.png");
 	width: 300px;
@@ -66,6 +66,22 @@ ol > li:hover > a
 	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); /*ze strony cssmatic.com/box-shadow */
 	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+#register
+{
+	background-image: url("img/tlo.png");
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9); /*ze strony cssmatic.com/box-shadow */
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+#Login input[type=button]
+{
+	margin-top: 0;
 }
 #container
 {
@@ -136,7 +152,7 @@ ol > li:hover > a
 #message
 {
 	color: #666;
-	font-size: 17px;
+	font-size: 15px;
 	margin-top: 20px;
 }
 main a
@@ -174,7 +190,7 @@ footer
 	float: left;
 	width: 300px;
 	margin-left: 80px;
-	margin-top: 10px;
+	margin-top: 15px;
 
 }
 #rightSide
@@ -212,6 +228,7 @@ input[type=text],
 input[type=password],
 input[type=number],
 input[type=date],
+input[type=email],
 #category
 {
 	
@@ -230,6 +247,7 @@ input[type=text]:focus,
 input[type=password]:focus,
 input[type=number]:focus,
 input[type=date]:focus,
+input[type=email]:focus,
 #category:focus,
 #comment:focus
 {
@@ -244,6 +262,7 @@ input[type=text]:hover,
 input[type=password]:hover,
 input[type=number]:hover,
 input[type=date]:hover,
+input[type=email]:hover,
 #category:hover
 {
 	cursor: pointer;
@@ -273,6 +292,7 @@ input[type=button]
 {
 	margin-left: 10px;
 }
+
 input[type=submit]:hover,
 input[type=button]:hover
 {
