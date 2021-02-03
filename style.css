@@ -99,26 +99,51 @@ ol > li:hover > a
 	height: 190px;
 	margin:10px;
 }
+
 #addIncome
 {
 	text-align: center;
 	background-color: #efefef;
+	transition: all 0.5s ease-in-out;
+}
+#addIncome:hover
+{
+	coursor: pointer;
+	background-color: #c6c2c2;
 }
 #addExpense
 {
 	text-align: center;
 	background-color: #efefef;
+	transition: all 0.5s ease-in-out;
+}
+#addExpense:hover
+{
+	coursor: pointer;
+	background-color: #c6c2c2;
 }
 #balance
 {
 	text-align: center;
 	background-color: #efefef;
+	transition: all 0.5s ease-in-out;
+}
+#balance:hover
+{
+	coursor: pointer;
+	background-color: #c6c2c2;
 }
 #message
 {
 	color: #666;
 	font-size: 17px;
 	margin-top: 20px;
+}
+main a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
 }
 #slogan
 {

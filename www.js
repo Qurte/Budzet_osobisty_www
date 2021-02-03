@@ -9,6 +9,13 @@ overlapContact.addEventListener("click", function() {changeStyle("contact"); });
 overlapAboutUs.addEventListener("click", function() {changeStyle("aboutUs"); });
 overlapLogin.addEventListener("click", function() {changeStyle("login"); });
 
+//var addIncome = document.getElementById("addIncome");
+//var addExpense = document.getElementById("addExpense");
+//var balance = document.getElementById("balance");
+
+//addIncome.addEventListener("click", function() {changeContent("addIncome"); });
+//addExpense.addEventListener("click", function() {changeContent("addExpense"); });
+//balance.addEventListener("click", function() {changeContent("balance"); });
 
 function changeStyle(nameOverlap)
 {
@@ -21,4 +28,3 @@ function changeStyle(nameOverlap)
 		previousOverlap = nameOverlap;
 	}
 }
-
