@@ -320,3 +320,32 @@ input:focus:-ms-input-placeholder
 {
     color: #428C42;
 }
+table,
+td
+{
+	margin-top: 10px;
+	border: 1px solid #000000;
+}
+.firstTab
+{
+	font-weight: 700;
+}
+
+#sum
+{
+	font-weight: 700;
+	text-align: right;
+	border: none;
+	margin-right: 5px;
+	
+}
+#ammountSum
+{
+	width: 178px;
+	border: none;
+}
+#tabSum
+{
+	border: none;
+}
+
